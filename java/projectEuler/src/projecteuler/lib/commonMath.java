@@ -14,18 +14,16 @@ public class commonMath {
     
     public static boolean isPrime(long num) {
 
-        boolean prime = true;
-        
 	if ( num == 1 ) {
 		return false;
 	}
 	
         for ( int x = 2; x <= Math.sqrt(num); x++ ) {
             if ( num % x == 0 ) {
-                prime = false;
+                return false;
             }
         }
-        return prime;
+        return true;
     }
     
     public static BigInteger factorial(int number) {
