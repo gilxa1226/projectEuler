@@ -19,7 +19,11 @@ public class ProjectEuler {
      */
     public static void main(String[] args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Problem prb = new Problem070();
+=======
+        Problem prb = new Problem387();
+>>>>>>> 6e6ccb0d074a58a7b6f3ced710a08962c98170aa
 =======
         Problem prb = new Problem387();
 >>>>>>> 6e6ccb0d074a58a7b6f3ced710a08962c98170aa
