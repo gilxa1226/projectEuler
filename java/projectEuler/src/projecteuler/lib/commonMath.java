@@ -168,6 +168,7 @@ public class commonMath {
 
             for ( int x = 0; x < numA.length(); x++) {
                 if ( numA.contains(Character.toString(numB.charAt(x)))) {
+                    numA = numA.replaceFirst(Character.toString(numB.charAt(x)), "x");
                     cnt++;
                 }
             }

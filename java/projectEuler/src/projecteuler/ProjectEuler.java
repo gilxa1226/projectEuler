@@ -18,7 +18,7 @@ public class ProjectEuler {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Problem prb = new Problem069();
+        Problem prb = new Problem070();
         
         prb.run();
     }
